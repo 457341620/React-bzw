@@ -1,0 +1,374 @@
+/**公共样式表*!*/
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,menu
+{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:100;}
+body{ font-family:"微软雅黑"; }
+input,a{outline:none;}
+
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+
+}
+/*-------------------------注册-----------------------*/
+/*tou*/
+.lyd_hw{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.06);
+
+}
+.lyd_h{
+    width: 990px;
+    height: 50px;
+
+    margin: 0 auto;
+}
+.lyd_h span:nth-child(1){
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+
+.lyd_h span:nth-child(1) img{
+    float: left;
+    width: 100px;
+    height: 44px;
+    margin-top: 3px;
+    cursor: pointer;
+ }
+.lyd_h span:nth-child(2) {
+     float: right;
+     line-height: 50px;
+     font-size: 12px;
+     color: #949494;
+ }
+.lyd_h span:nth-child(2) i {
+    float: right;
+    margin-right: 5px;
+    font-style: normal;
+    line-height: 50px;
+    font-size: 12px;
+    color: #E2231A;
+    cursor: pointer;
+}
+
+
+/*main*/
+.lyd_mw{
+    width: 100%;
+    min-height: 400px;
+
+}
+
+.lyd_m{
+    width: 990px;
+    min-height: 400px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+/*z*/
+.lyd_ml{
+    float: left;
+    height: 328px;
+    width: 489px;
+    background: url("../img/lyd-logbg1.jpg") no-repeat center/cover;
+}
+
+.lyd_my{
+    float: right;
+    width: 480px;
+    height: 554px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+
+}
+.lyd_myt{
+    width: 100%;
+    height: 43px;
+    background: url(../img/lyd_bg2.gif)  repeat-x;
+
+}
+.lyd_myt  strong{
+    font-size: 16px;
+    font-weight: normal;
+    float: left;
+    padding-right: 10px;
+    padding-left: 25px;
+    height: 43px;
+    color: #666666;
+    line-height: 43px;
+
+}
+.lyd_myb ul{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px 25px 35px;
+
+}
+
+.lyd_li{
+    padding-top: 13px;
+
+}
+
+.lyd_myb p{
+    float: left;
+    line-height: 30px;
+
+
+}
+.lyd_myb .lyd_user{
+    font-size: 14px;
+    color: #666;
+    width: 80px;
+    text-align: right;
+
+
+}
+.lyd_myb .lyd_f4{
+    width: 190px;
+    /*color: #ff7126;*/
+}
+.lyd_myb .inpx1{
+    width: 170px;
+    background: url(../img/lyd_inpx.gif) no-repeat;
+    height: 26px;
+    border: 1px solid #b4b6b7;
+    font-size: 14px;
+    line-height: 26px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.lyd_bh{
+    width: 145px;
+    color: #FF0000;
+    line-height: 15px;
+    height: 30px;
+    overflow: hidden;
+}
+.lyd_bh1{
+    padding-left: 15px;
+    display: block;
+    background-repeat: no-repeat;
+    color: #FF0000;
+}
+.lyd_inp{
+    padding-top: 8px;
+    padding-right: 6px;
+}
+.lyd_myb .lyd_dx{
+    float: left;
+    width: 13px;
+    height: 13px;
+    margin-top: 3px;
+
+}
+.lyd_myb  .lyd_xy{
+    float: left;
+    width: auto;
+    margin-left: -172px;
+    font-size: 12px;
+}
+.lyd_myb .lyd_dl{
+    float: left;
+    width: 100%;
+    height: 38px;
+    margin: -18px 5px 0 80px;
+}
+ .lyd_zc{
+     float: left;
+    background: url(../img/lyd_zc.gif) no-repeat;
+    border: 0;
+    width: 125px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.lyd_myb .lyd_dl1{
+    float: left;
+    font-size: 12px;
+    line-height: 38px;
+    color: #E2231A;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.lyd_dl1:hover{
+    text-decoration: underline;
+
+}
+.lyd_tx4{
+    float: left;
+    font-size: 12px;
+    padding-left: 18px;
+    color: #999999;
+    margin-top: 30px;
+}
+
+/*foot*/
+
+
+.lyd_fw{
+    width: 100%;
+    min-height: 325px;
+
+}
+.lyd_ftw{
+    width: 100%;
+    height: 103px;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+
+}
+.lyd_f{
+    width: 100%;
+    min-height: 325px;
+    margin: 0 auto;
+
+}
+.lyd_ft{
+    width: 100%;
+    height: 103px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.lyd_item{
+    float: left;
+    width: 25%;
+    margin: 23px 0 0 -1px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 0;
+    text-align: center;
+    border-left: 1px solid #e8e8e8;
+
+}
+.lyd_item a{
+    color: #8b8b8b;
+}
+.lyd_ico{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -14px;
+
+}
+.lyd_item a span{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #302e33;
+}
+/*mid*/
+
+.lyd_fmw{
+    width: 100%;
+    height: 221px;
+    padding: 40px 0 60px;
+    border-top: 1px solid #e8e8e8;
+    box-sizing: border-box;
+
+}
+.lyd_fm{
+    box-sizing: border-box;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: red;
+
+
+}
+.lyd_fm1{
+    float: left;
+    width: 198px;
+
+}
+.lyd_fm1 h4{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.lyd_fm1 p{
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom:0;
+}
+.lyd_fm1 p a{
+    color: #8b8b8b;
+    line-height: 30px;
+    font-size: 12px;
+}
+.lyd_fm1 p a:hover{
+  text-decoration: underline;
+    color: #E2231A;
+
+}
+.lyd_fm1 .lyd_fmp{
+    height: 38px;
+    margin-top: 6px;
+    font-size: 0;
+    line-height: 38px;
+
+}
+.lyd_fm1 .lyd_fmp a:nth-child(1){
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+    line-height: 34px;
+    font-size: 14px;
+    border: 1px solid #ff7777;
+    border-radius: 2px;
+}
+.lyd_fm1 .lyd_fmp a:nth-child(1):hover{
+    color: #fff;
+    background-color: #ff7777;
+}
+
+.lyd_fm1 .lyd_fmp a:nth-child(2),.lyd_fm1 .lyd_fmp a:nth-child(3){
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    background: url("../img/lyd-logwx1.jpg") no-repeat center/cover;
+}
+.lyd_fm1 .lyd_fmp a:nth-child(3){
+    background: url("../img/lyd-logwb.jpg") no-repeat center/cover;
+}
+
+.lyd_fm1 .lyd_fmp a:nth-child(2) img {
+    position: absolute;
+    bottom: 100%;
+    left: -42px;
+    width: 120px;
+    height: 120px;
+    display: none;
+}
+.lyd_fm1 .lyd_fmp a:nth-child(2):hover img{
+    display: block;
+}
+/*xia*/
+.lyd_fbw{
+    padding: 30px 0 35px;
+    line-height: 24px;
+    color: #8b8b8b;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+}
